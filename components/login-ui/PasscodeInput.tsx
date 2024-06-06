@@ -1,6 +1,5 @@
 "use client";
 
-import { REGEXP_ONLY_DIGITS_AND_CHARS } from "input-otp";
 import React, { useState } from "react";
 
 import {
@@ -26,7 +25,6 @@ function PasscodeInput() {
       </p>
       <InputOTP
         maxLength={6}
-        pattern={REGEXP_ONLY_DIGITS_AND_CHARS}
         value={passcode}
         onChange={(newValue) => setPasscode(newValue)}
         onComplete={handleEnterPasscode}
