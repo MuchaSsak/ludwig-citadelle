@@ -6,7 +6,10 @@ import React, { useEffect, useState } from "react";
 import { Button } from "@/components/ui/button";
 
 function ScrollToTop() {
-  const [isAtTop, setIsAtTop] = useState(() => window.scrollY === 0);
+  const [isAtTop, setIsAtTop] = useState(() => {
+    if (typeof window === "undefined") return;
+    return window.scrollY === 0;
+  });
 
   useEffect(() => {
     function scrollFunction() {
@@ -20,10 +23,9 @@ function ScrollToTop() {
 
   return (
     <Button
-      className={`m-side fixed bottom-4 right-0 size-8 rounded-full p-1.5 transition-opacity ${
-        isAtTop ? "opacity-0" : "opacity-100"
-      }`}
+      className="m-side fixed bottom-4 right-0 size-8 rounded-full p-1.5 transition-opacity"
       tabIndex={1}
+      disabled={isAtTop}
       size="icon"
       onClick={() => {
         window.scrollTo(0, 0);
