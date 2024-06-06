@@ -1,3 +1,12 @@
+## [1.0.3](https://github.com/MuchaSsak/ludwig-citadelle/compare/v1.0.2...v1.0.3) (2024-06-06)
+
+
+### Bug Fixes
+
+* allow only numeric values ([16ca532](https://github.com/MuchaSsak/ludwig-citadelle/commit/16ca5320eaac93e634dd7c90b718e15dd3a354e1))
+
+
+
 ## [1.0.2](https://github.com/MuchaSsak/ludwig-citadelle/compare/v1.0.1...v1.0.2) (2024-06-06)
 
 
