@@ -27,6 +27,7 @@
     "@tanstack/react-query-devtools": "^5.35.1",
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.1",
+    "cookies-next": "^4.2.1",
     "framer-motion": "^11.2.10",
     "input-otp": "^1.2.4",
     "lucide-react": "^0.379.0",

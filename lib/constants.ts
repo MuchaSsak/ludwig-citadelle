@@ -183,3 +183,6 @@ export const QUOTES_TAGS = [
   "Intimidating",
 ];
 export const QUOTES_GRADES = ["1TP", "2TP", "3TP", "4TP", "5TP"];
+
+// Announcement
+export const MAX_HIDE_ANNOUNCEMENT_COOKIE_AGE = 60 * 60 * 72; // 3 days

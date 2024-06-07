@@ -3,6 +3,7 @@ import "@/app/globals.css";
 import type { Metadata } from "next";
 import { Kumbh_Sans as FontSans } from "next/font/google";
 
+import Announcement from "@/components/layout-ui/Announcement";
 import BodyBackground from "@/components/layout-ui/BodyBackground";
 import NavBar from "@/components/layout-ui/navbar";
 import Providers from "@/components/utils/Providers";
@@ -34,6 +35,7 @@ export default function RootLayout({
       >
         <Providers>
           <BodyBackground />
+          <Announcement />
           <NavBar />
 
           {children}

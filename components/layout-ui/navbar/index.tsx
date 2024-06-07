@@ -7,7 +7,7 @@ import RightSideButtons from "@/components/layout-ui/navbar/RightSideButtons";
 
 function NavBar() {
   return (
-    <nav className="p-side sticky top-0 flex h-12 items-center justify-between bg-gradient-to-b from-background to-transparent py-8">
+    <nav className="p-side sticky top-0 z-10 flex h-12 items-center justify-between bg-gradient-to-b from-background to-transparent py-8">
       {/* Left side */}
       <div className="flex items-center gap-16">
         <Logo />
