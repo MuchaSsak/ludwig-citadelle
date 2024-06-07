@@ -47,7 +47,7 @@ function Announcement() {
       <Dialog>
         <DialogTrigger tabIndex={-1} className="flex items-center">
           <h3
-            className="rounded-sm text-accent-foreground ring-primary hover:text-foreground focus-visible:text-foreground"
+            className="rounded-sm text-accent-foreground ring-primary hover:text-foreground focus-visible:text-foreground line-clamp-1"
             tabIndex={0}
           >
             {previewTitle}
