@@ -1,3 +1,12 @@
+# [1.1.0](https://github.com/MuchaSsak/ludwig-citadelle/compare/v1.0.3...v1.1.0) (2024-06-07)
+
+
+### Features
+
+* add announcements ([dd3569f](https://github.com/MuchaSsak/ludwig-citadelle/commit/dd3569f87c40328d50fc23a7c98af11242830ccf))
+
+
+
 ## [1.0.3](https://github.com/MuchaSsak/ludwig-citadelle/compare/v1.0.2...v1.0.3) (2024-06-06)
 
 
