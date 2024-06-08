@@ -80,16 +80,12 @@
     @apply text-transparent bg-gradient-to-r from-amber-500 via-orange-600 to-yellow-500 bg-clip-text;
   }
 
-  .text-green-gradient {
-    @apply text-transparent bg-gradient-to-r from-green-400 to-green-500 bg-clip-text;
-  }
-
-  .text-blue-gradient {
-    @apply text-transparent bg-gradient-to-r from-blue-400 to-sky-500 bg-clip-text;
-  }
-
   .text-red-gradient {
     @apply text-transparent bg-gradient-to-r from-red-500 to-rose-800 bg-clip-text;
+  }
+
+  .text-gold-gradient {
+    @apply text-transparent bg-gradient-to-r from-yellow-300 to-amber-500 bg-clip-text;
   }
 
   .bg-glassmorphism-sm {

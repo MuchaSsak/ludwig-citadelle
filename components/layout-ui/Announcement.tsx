@@ -41,13 +41,13 @@ function Announcement() {
   }
 
   return (
-    <div className="bg-glassmorphism-md p-side flex h-9 items-center justify-between text-sm">
+    <div className="bg-glassmorphism-md p-side relative z-10 flex h-9 items-center justify-between text-sm">
       <div />
 
       <Dialog>
         <DialogTrigger tabIndex={-1} className="flex items-center">
           <h3
-            className="rounded-sm text-accent-foreground ring-primary hover:text-foreground focus-visible:text-foreground line-clamp-1"
+            className="line-clamp-1 rounded-sm text-accent-foreground ring-primary hover:text-foreground focus-visible:text-foreground"
             tabIndex={0}
           >
             {previewTitle}
@@ -60,14 +60,14 @@ function Announcement() {
         <DialogContent className="bg-glassmorphism-md bg-background/75 backdrop-blur">
           <DialogHeader>
             <DialogTitle>{previewTitle}</DialogTitle>
-            <DialogDescription className="pt-2 pb-4">
+            <DialogDescription className="pb-4 pt-2">
               {description}
             </DialogDescription>
             <DialogFooter className="flex items-center !justify-between">
-              <span className="dark:text-muted text-muted-foreground text-sm">
+              <span className="text-sm text-muted-foreground dark:text-muted">
                 {formatDate(new Date(createdAt))}
               </span>
-              <span className="text-orange-gradient font-semibold italic text-md">
+              <span className="text-orange-gradient text-md font-semibold italic">
                 - {announcer}
               </span>
             </DialogFooter>

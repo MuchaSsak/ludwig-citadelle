@@ -82,6 +82,11 @@ const config = {
           "15%": { boxShadow: "0 0 0.5rem hsla(var(--primary),1)" },
           "30%": { boxShadow: "0 0 0rem hsla(var(--primary),1)" },
         },
+        "pulse-shadow-xl": {
+          "0%": { boxShadow: "0 0 0rem hsla(var(--primary),1)" },
+          "15%": { boxShadow: "0 0 2rem hsla(var(--primary),1)" },
+          "30%": { boxShadow: "0 0 0rem hsla(var(--primary),1)" },
+        },
         "caret-blink": {
           "0%,70%,100%": { opacity: "1" },
           "20%,50%": { opacity: "0" },
@@ -91,6 +96,7 @@ const config = {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
         "pulse-shadow": "pulse-shadow 5s infinite",
+        "pulse-shadow-xl": "pulse-shadow-xl 5s infinite",
         "caret-blink": "caret-blink 1.25s ease-out infinite",
       },
     },

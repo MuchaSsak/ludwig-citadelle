@@ -1,10 +1,16 @@
 import React from "react";
 
 import { Skeleton } from "@/components/ui/skeleton";
+import { cn } from "@/lib/utils";
 
-function QuoteCardSkeleton() {
+function QuoteCardSkeleton({ className = "" }: { className?: string }) {
   return (
-    <div className="bg-glassmorphism-sm relative flex min-h-32 w-full flex-col justify-between rounded-md px-4 py-2 sm:w-[30rem]">
+    <div
+      className={cn(
+        "bg-glassmorphism-sm relative flex min-h-32 w-full flex-col justify-between rounded-md px-4 py-2 sm:w-[30rem]",
+        className
+      )}
+    >
       {/* Quote icon */}
       <Skeleton className="absolute left-4 top-2 size-14 rounded-full" />
 
