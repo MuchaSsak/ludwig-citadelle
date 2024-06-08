@@ -1,3 +1,12 @@
+# [1.2.0](https://github.com/MuchaSsak/ludwig-citadelle/compare/v1.1.1...v1.2.0) (2024-06-08)
+
+
+### Features
+
+* add qotd ([64cb50f](https://github.com/MuchaSsak/ludwig-citadelle/commit/64cb50f57ed63142df2c56b944476dca9bc5770b))
+
+
+
 ## [1.1.1](https://github.com/MuchaSsak/ludwig-citadelle/compare/v1.1.0...v1.1.1) (2024-06-07)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * ensure that window is defined ([a309380](https://github.com/MuchaSsak/ludwig-citadelle/commit/a3093808e1071dd2ba92e927c178bc9f4e6c59fd))
-
-
-
-## [1.0.1](https://github.com/MuchaSsak/ludwig-citadelle/compare/v1.0.0...v1.0.1) (2024-06-06)
-
-
-### Bug Fixes
-
-* wrap home page in suspense boundary ([3a51754](https://github.com/MuchaSsak/ludwig-citadelle/commit/3a51754084c3d60ae21e09c790832451b1066ffe))
 
 
 
