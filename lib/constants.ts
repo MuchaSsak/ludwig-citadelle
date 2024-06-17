@@ -118,7 +118,7 @@ export const NAVBAR_LUDWIG_API_LINKS = [
 // Links
 export const LUDWIG_CITADELLE_GITHUB_LINK =
   "https://github.com/MuchaSsak/ludwig-citadelle";
-export const CONTACT_EMAIL = "MuchaSsak.social@gmail.com";
+export const CONTACT_EMAIL = "mat.muszarski@gmail.com";
 export const LOZA_EMAIL = "loza@muszarski.pl";
 
 // Quotes
