@@ -1,3 +1,12 @@
+## [1.2.1](https://github.com/MuchaSsak/ludwig-citadelle/compare/v1.2.0...v1.2.1) (2024-06-17)
+
+
+### Bug Fixes
+
+* update contact email ([c7f76d9](https://github.com/MuchaSsak/ludwig-citadelle/commit/c7f76d986b620f48c3889fd158b738da065e76f0))
+
+
+
 # [1.2.0](https://github.com/MuchaSsak/ludwig-citadelle/compare/v1.1.1...v1.2.0) (2024-06-08)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * allow only numeric values ([16ca532](https://github.com/MuchaSsak/ludwig-citadelle/commit/16ca5320eaac93e634dd7c90b718e15dd3a354e1))
-
-
-
-## [1.0.2](https://github.com/MuchaSsak/ludwig-citadelle/compare/v1.0.1...v1.0.2) (2024-06-06)
-
-
-### Bug Fixes
-
-* ensure that window is defined ([a309380](https://github.com/MuchaSsak/ludwig-citadelle/commit/a3093808e1071dd2ba92e927c178bc9f4e6c59fd))
 
 
 
