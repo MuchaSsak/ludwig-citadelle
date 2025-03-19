@@ -2,7 +2,7 @@
 
 A Next.js website to view quotes of my math teacher taken out of context 😂
 
-To see this application live, [click here](https://ludwig.muszarski.pl) 🚀
+To see this application live, [click here](https://ludwig.muszarski.space) 🚀
 
 ## Acknowledgements
 
